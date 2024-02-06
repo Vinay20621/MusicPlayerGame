@@ -8,7 +8,7 @@ const musicRouter=require('./routes/music')
 
 const app=express()
 app.use(cors({
-    origin:'*',
+    origin:'https://musicplayerapp-kyj4.onrender.com',
     credentials:true
 }))
 app.use(express.json())
